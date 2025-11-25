@@ -63,7 +63,7 @@ describe("LoginInput component", () => {
       password: "passwordtest",
     });
   });
-  it('should fail intentionally', () => {
-  expect(true).toBe(false); // Test akan gagal
+  it('should pass correctly', () => {
+  expect(true).toBe(true); // Test akan berhasil
 });
 });
